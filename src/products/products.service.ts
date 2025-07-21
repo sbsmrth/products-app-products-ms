@@ -41,7 +41,7 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
       meta: {
         total: totalPages,
         page: page,
-        lastPage: lastPage,
+        lastPage,
       },
     };
   }
