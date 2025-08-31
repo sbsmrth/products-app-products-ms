@@ -57,4 +57,5 @@ COPY --from=builder --chown=node:node /app/prisma ./prisma
 # Use the node user from the image
 USER node
 
-
+# Start the server
+CMD ["node", "dist/main.js"]
