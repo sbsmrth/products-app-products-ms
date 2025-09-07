@@ -35,7 +35,7 @@ $ npm install
 
 ```bash
 # development
-$ git clone https://github.com/nest-microservices-app-sbsmrth/products-ms.git
+$ git clone https://github.com/sbsmrth/products-app-products-ms.git
 $ npm i
 $ mv .env.example .env
 $ npm run start:dev
